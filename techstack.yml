@@ -1,0 +1,32 @@
+repo_name: rgunindi/free-programming-books
+report_id: 3bc5fc2917f4014b9c9396208e34e466
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-08T19:43:53+00:00'
+requested_by: Lisaluu555
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rgunindi/free-programming-books
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rgunindi/free-programming-books/blob/main/.github/workflows/check-urls.yml
+  detection_source: ".github/workflows/check-urls.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-09-24 13:03:04.000000000 Z
